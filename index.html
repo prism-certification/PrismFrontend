@@ -1,0 +1,22 @@
+<meta charset="utf-8"/>
+<script src="vue.js"></script>
+
+<div id="app">
+    <div class="header">
+        <div class="container">
+            <div class="title-wrapper">
+                <h1 class="break-long-words title-message">Prism</h1>
+                <div class="logo"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div v-bind:class="personStyle" v-for="person in persons">
+            {{ person }}
+        </div>
+    </div>
+</div>
+
+<script src="prism.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
