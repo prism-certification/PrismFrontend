@@ -138,12 +138,12 @@ until the Vue instance is ready */
 }
 
 .VueCarousel {
-  box-shadow: 2px 2px 5px black;
+  border-style: dotted;
+  border-color: white;
 }
 
 .VueCarousel-slide {
   position: relative;
-  background: #5e5b64;
   color: white;
   font-family: Arial;
   font-size: 24px;
