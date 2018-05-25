@@ -66,6 +66,11 @@ nav {
     -webkit-transition: background-color 0.25s;
     -moz-transition: background-color 0.25s;
     transition: background-color 0.25s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
 }
 
 .navbar ul li a:hover {
@@ -113,6 +118,11 @@ until the Vue instance is ready */
     -webkit-transition: background-color 0.25s;
     -moz-transition: background-color 0.25s;
     transition: background-color 0.25s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
 }
 
 .devCompanySelector ul li a:hover {
